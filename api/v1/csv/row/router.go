@@ -7,10 +7,11 @@ import (
 )
 
 func Route(r *mux.Router) {
+	r.Use(toCtx)
 
 	r.Path("").
 		Methods(http.MethodDelete).
-		Handler(del(show()))
+		Handler(del())
 
 	r.Path("").
 		Methods(http.MethodPut).

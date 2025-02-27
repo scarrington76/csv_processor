@@ -18,13 +18,6 @@ func Contains(s []string, e string) bool {
 	return slices.Contains(s, e)
 }
 
-func GetEnvVar(key string) string {
-	if os.Getenv(key) == "" { // TODO: Change to check for env variable first
-		log.Fatalf("the environment variable '%s' doesn't exist or is not set", key)
-	}
-	return os.Getenv(key)
-}
-
 func WriteJSON(rw http.ResponseWriter, data interface{}) {
 	js, err := json.Marshal(data)
 	if err != nil {

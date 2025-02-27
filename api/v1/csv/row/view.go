@@ -13,12 +13,6 @@ func show() http.Handler {
 			ctx := r.Context()
 			c := ctx.Value("csv").(models.CSV)
 
-			// dto := struct {
-			// 	Latitude string `json:"latitude"`
-			// }{
-			// 	Latitude: c.Cola,
-			// }
-
 			helpers.WriteJSON(w, c)
 		},
 	)

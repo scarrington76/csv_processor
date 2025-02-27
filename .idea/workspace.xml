@@ -4,69 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055a1b8-1a5d-41ab-b0ec-01070a075718" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/db/column.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/db/csv.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/db/row.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/example_csv.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/helpers/helpers.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/models/csv.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/server/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/column/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/column/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/column/view.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/dto.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/row/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/row/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/row/view.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/view.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv_processor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv_processor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/init-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/db/db.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/api/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/api/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/model/technology.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/web/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/server/app.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/web/app_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/web/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/.vscode/extensions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/.vscode/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/tech/tech.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/tech/tech.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/tech/tech.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/tech/tech.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/tech/tech.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/tech/tech.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/app/tech/tech.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/tech/tech.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/assets/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/environments/environment.development.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/environments/environment.development.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/favico.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/favico.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webapp/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="0055a1b8-1a5d-41ab-b0ec-01070a075718" name="Changes" comment="csv_processor - initial commit">
+      <change afterPath="$PROJECT_DIR$/api/v1/csv/row/dto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/row.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/row.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/helpers/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/helpers/helpers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/row/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/row/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/row/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/row/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/row/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/row/view.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +140,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit from Goxygen" />
+    <MESSAGE value="csv_processor - initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="csv_processor - initial commit" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
