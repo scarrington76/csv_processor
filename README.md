@@ -27,11 +27,11 @@ This starts a local PostgreSQL database on `localhost:5432`.
 The database will be populated with test records from the
 [init-db.sql](init-db.sql) file.
 
-Navigate to the `server` folder and start the back end:
+Navigate to the `api` folder and start the back end:
 
 ```sh
-cd server
-go run server.go
+cd api
+go run main.go
 ```
 The back end will serve on http://localhost:8080.
 
@@ -39,7 +39,7 @@ Navigate to the `webapp` folder, install dependencies,
 and start the front end development server by running:
 
 ```sh
-cd webapp
+cd web
 npm install
 npm start
 ```
