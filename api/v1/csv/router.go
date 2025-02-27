@@ -3,7 +3,6 @@ package csv
 import (
 	"net/http"
 
-	"csv_processor/v1/csv/column"
 	"csv_processor/v1/csv/row"
 	"github.com/gorilla/mux"
 )
@@ -27,10 +26,6 @@ func Route(r *mux.Router) {
 		Handler(create(indexToCtx(index())))
 
 	id := r.PathPrefix("/{id:[0-9]+}").Subrouter()
-
 	rw := id.PathPrefix("/row").Subrouter()
 	row.Route(rw)
-
-	c := id.PathPrefix("/column").Subrouter()
-	column.Route(c)
 }

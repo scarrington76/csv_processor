@@ -13,6 +13,7 @@ func main() {
 
 	a := server.New()
 	if err := a.Serve(); err != nil {
+		db.DB.Close()
 		log.Fatal("error serving application: ", err)
 	}
 }

@@ -148,24 +148,3 @@ func addRow(h http.Handler) http.Handler {
 		},
 	)
 }
-
-func addCol(h http.Handler) http.Handler {
-	return http.HandlerFunc(
-		func(w http.ResponseWriter, r *http.Request) {
-			ctx := r.Context()
-			csv := models.CSV{}
-
-			// csv, err := db.GetCSV(ctx)
-			// if err != nil {
-			// 	fmt.Printf("error retrieving csv: %v", err)
-			// 	return
-			// }
-
-			csv.Name = "something"
-
-			ctx = context.WithValue(ctx, "csv", csv)
-
-			h.ServeHTTP(w, r.WithContext(ctx))
-		},
-	)
-}

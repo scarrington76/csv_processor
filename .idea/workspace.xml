@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055a1b8-1a5d-41ab-b0ec-01070a075718" name="Changes" comment="csv_processor - initial commit">
-      <change afterPath="$PROJECT_DIR$/api/v1/csv/row/dto.go" afterDir="false" />
+    <list default="true" id="0055a1b8-1a5d-41ab-b0ec-01070a075718" name="Changes" comment="csv_processor - add row crud">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/db/row.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/row.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/helpers/helpers.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/helpers/helpers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/csv/row/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/row/api.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/csv/row/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/row/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/v1/csv/row/view.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/row/view.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/column.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/api/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/api/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/column/api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/column/router.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/column/view.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/csv/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/csv/router.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -144,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit from Goxygen" />
     <MESSAGE value="csv_processor - initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="csv_processor - initial commit" />
+    <MESSAGE value="csv_processor - add row crud" />
+    <option name="LAST_COMMIT_MESSAGE" value="csv_processor - add row crud" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
